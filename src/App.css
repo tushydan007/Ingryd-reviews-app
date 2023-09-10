@@ -1,38 +1,142 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 16px;
   min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.text {
+  text-align: justify;
+}
+
+.icons {
+  background-color: rgba(0, 68, 255, 0.625);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  background-color: #fff;
+  width: 400px;
+  margin: 5px auto 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.part {
+  border-bottom: 2px solid rgba(0, 68, 255, 0.625);
+}
+
+.details {
+  text-align: left;
+  line-height: 10px;
+  cursor: pointer;
+}
+
+.quote-image {
+  position: relative;
+  display: grid;
+  place-content: centers;
+  width: 50px;
+  margin: auto;
+}
+
+.span {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.quote-div {
+  position: absolute;
+  background-color: rgba(0, 68, 255, 0.625);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 1px;
+  display: flex;
+  left: -6px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-right: 3px solid rgba(0, 68, 255, 0.625);
+  object-fit: cover;
+  cursor: pointer;
+}
+.gray {
+  color: #808080;
+}
+
+.img-div {
+  display: flex;
+  align-items: center;
+}
+
+/* .birthday {
+  text-align: left;
+} */
+
+.show {
+  display: block;
+}
+
+/* input {
+
+} */
+
+.hide {
+  display: none;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.job {
+  color: #808080;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 2px;
+}
+
+button {
+  background-color: rgba(0, 68, 255, 0.625);
+  color: #fff;
+  font: inherit;
+  width: 350px;
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-top: 20px;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+button:hover {
+  opacity: 0.8;
 }
